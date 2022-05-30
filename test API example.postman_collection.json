@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "06e44c27-645d-4109-bea9-5cfb4bdca0e7",
+		"name": "test API example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21187963"
+	},
+	"item": [
+		{
+			"name": "\thttps://dummy.restapiexample.com/api/v1/employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/employees",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://dummy.restapiexample.com/employee/{id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/employee/employee/{id}",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"employee",
+						"employee",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://dummy.restapiexample.com/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/create",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://dummy.restapiexample.com/update/{id}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/update/{id}",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"update",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " http://dummy.restapiexample.com/delete/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/delete/{id}",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"delete",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://dummy.restapiexample.com/api/v1"
+		}
+	]
+}
